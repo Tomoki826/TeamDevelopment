@@ -391,7 +391,7 @@ PrefabInstance:
       objectReference: {fileID: 1134408560}
     - target: {fileID: 464445383098461924, guid: 52ce5afe21edd6d46879c7be7f12794d, type: 3}
       propertyPath: nextSceneName
-      value: stage4
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 464445383098461924, guid: 52ce5afe21edd6d46879c7be7f12794d, type: 3}
       propertyPath: destinationCount

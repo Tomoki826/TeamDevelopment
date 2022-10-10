@@ -1224,6 +1224,11 @@ PrefabInstance:
       objectReference: {fileID: 985247545}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6ca922ca1a866741b74dcd88b0499f4, type: 3}
+--- !u!1 &1160544437 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3725273463768993082, guid: d6ca922ca1a866741b74dcd88b0499f4, type: 3}
+  m_PrefabInstance: {fileID: 1160544436}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1260532333 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5585049098284818354, guid: 5e9bbedb37f0e4e498e7e855fb74b9a5, type: 3}
@@ -1573,6 +1578,10 @@ PrefabInstance:
       propertyPath: zoomCamera
       value: 
       objectReference: {fileID: 1604834690}
+    - target: {fileID: 464445383098461924, guid: 52ce5afe21edd6d46879c7be7f12794d, type: 3}
+      propertyPath: guideObject
+      value: 
+      objectReference: {fileID: 1160544437}
     - target: {fileID: 464445383098461924, guid: 52ce5afe21edd6d46879c7be7f12794d, type: 3}
       propertyPath: stageNumber
       value: 

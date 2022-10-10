@@ -9,6 +9,7 @@ public class StageController : MonoBehaviour
 {
     [Header("General")]
     public GameObject playerObject;     // プレイヤーのオブジェクト
+    public GameObject guideObject;      // ガイドのオブジェクト
     public GameObject zoomCamera;       // カメラのGameObject
     public GameObject timer;            // タイマーのGameObject
     public GameObject destinationCount; // 目的地カウントのGameObject
@@ -218,6 +219,10 @@ public class StageController : MonoBehaviour
     private IEnumerator StageClear()
     {
         Time.timeScale = 0;
+        if (guideObject != null)
+        {
+            guideObject.SetActive(false);
+        }
         timer.SetActive(false);
         destinationCount.SetActive(false);
 
@@ -289,6 +294,10 @@ public class StageController : MonoBehaviour
     private IEnumerator TimeUp()
     {
         Time.timeScale = 0;
+        if (guideObject != null)
+        {
+            guideObject.SetActive(false);
+        }
         timer.SetActive(false);
         destinationCount.SetActive(false);
 

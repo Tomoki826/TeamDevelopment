@@ -670,6 +670,10 @@ PrefabInstance:
       value: stage4
       objectReference: {fileID: 0}
     - target: {fileID: 464445383098461924, guid: 52ce5afe21edd6d46879c7be7f12794d, type: 3}
+      propertyPath: existNextStage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464445383098461924, guid: 52ce5afe21edd6d46879c7be7f12794d, type: 3}
       propertyPath: destinationCount
       value: 
       objectReference: {fileID: 1277667026}
@@ -2453,6 +2457,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3725273463768993086, guid: d6ca922ca1a866741b74dcd88b0499f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725273463768993087, guid: d6ca922ca1a866741b74dcd88b0499f4, type: 3}
+      propertyPath: isUse
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3725273463768993087, guid: d6ca922ca1a866741b74dcd88b0499f4, type: 3}

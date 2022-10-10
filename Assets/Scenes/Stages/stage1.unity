@@ -1322,6 +1322,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2119689676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3725273463768993082, guid: d6ca922ca1a866741b74dcd88b0499f4, type: 3}
+  m_PrefabInstance: {fileID: 3725273462801893114}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &464445381506877391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1417,6 +1422,10 @@ PrefabInstance:
       propertyPath: zoomCamera
       value: 
       objectReference: {fileID: 651194121}
+    - target: {fileID: 464445383098461924, guid: 52ce5afe21edd6d46879c7be7f12794d, type: 3}
+      propertyPath: guideObject
+      value: 
+      objectReference: {fileID: 2119689676}
     - target: {fileID: 464445383098461924, guid: 52ce5afe21edd6d46879c7be7f12794d, type: 3}
       propertyPath: stageNumber
       value: 

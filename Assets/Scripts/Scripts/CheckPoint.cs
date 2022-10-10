@@ -19,7 +19,10 @@ public class CheckPoint : MonoBehaviour
         checkPointReached = false;
         // ガイドのスクリプトを読み込む
         guide = GameObject.Find("PlayerGuide");
-        guideScript = guide.GetComponent<Guide>();
+        if (guide != null)
+        {
+            guideScript = guide.GetComponent<Guide>();
+        }
         // チェックポイントをオン・オフするか
         if (!first_checkpoint)
         {
@@ -34,7 +37,10 @@ public class CheckPoint : MonoBehaviour
             checkPointReached = true;
             if (!last_check_point)
             {
-                guideScript.checkPointObjectUpdate(next_check_point);
+                if (guide != null)
+                {
+                    guideScript.checkPointObjectUpdate(next_check_point);
+                }
                 next_check_point.SetActive(true);
             }
             else 
